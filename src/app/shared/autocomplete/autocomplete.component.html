@@ -1,0 +1,12 @@
+<input type="text" class="form__input form__style" [(ngModel)]="searchString" (keyup)="handleKeyUp($event)" placeholder="{{ placeholder }}"
+  [disabled]="disabled">
+
+<!-- <pre>{{ items | json }}</pre> -->
+
+<div class="autocomplete" *ngIf="items.length > 0">
+  <ul *ngFor="let item of items">
+    <li (click)="select(item)" role="option" [ngClass]="{ 'active' : item.isActive }">
+      <a>{{ item.name }}</a>
+    </li>
+  </ul>
+</div>

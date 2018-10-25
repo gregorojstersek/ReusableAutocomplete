@@ -1,0 +1,17 @@
+{
+  "/recipes/*": {
+    "target": "http://localhost:3000",
+    "secure": false,
+    "logLevel": "debug"
+  },
+  "/countries/*": {
+    "target": "http://localhost:3000",
+    "secure": false,
+    "logLevel": "debug"
+  },
+  "/states/*": {
+    "target": "http://localhost:3000",
+    "secure": false,
+    "logLevel": "debug"
+  }
+}

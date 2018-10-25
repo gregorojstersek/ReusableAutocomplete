@@ -1,27 +1,53 @@
-# ReusableAutocomplete
+# Find recipes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
+A [web application](https://find-recipes-176545.herokuapp.com/) that displays a reusable autocomplete for finding recipes that start with "A", countries that start with "A" and states or territories of the United States.
 
-## Development server
+## Preview
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+![alt text](https://user-images.githubusercontent.com/9784551/47481815-190dc800-d835-11e8-8445-27d6e09c73ec.gif)
 
-## Code scaffolding
+## Install
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Make sure you clone the repo with the submodule
 
-## Build
+```sh
+git clone --recurse-submodules https://github.com/gregorojstersek/ReusableAutocomplete.git
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Make sure you have nodemon installed as a global package.
 
-## Running unit tests
+```sh
+npm install -g nodemon
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Navigate to the server folder and run:
 
-## Running end-to-end tests
+```sh
+npm install
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+After installing all the packages in the server folder, navigate to the root of the project and run:
 
-## Further help
+```sh
+npm install
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Let's start the app.
+
+```sh
+npm start
+```
+
+That will start the express server on localhost:3000 and client app on localhost:4200.
+
+## Client side
+
+Built with Angular 6, using Angular CLI.
+
+### Functionalities
+
+- displaying a reusable autocomplete for finding recipes that start with "A", countries that start with "A" and states or territories of the United States.
+
+## Server side
+
+You can check the [repo](https://github.com/gregorojstersek/FilteringAutocompleteData) for more info.

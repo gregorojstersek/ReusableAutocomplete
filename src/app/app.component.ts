@@ -1,10 +1,20 @@
+import { AutocompleteData } from './shared/autocomplete/autocomplete-data';
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  templateUrl: './app.component.html'
 })
 export class AppComponent {
-  title = 'reusableAutocomplete';
+  recipeSelected = (recipe: AutocompleteData) => {
+    console.log(recipe);
+  }
+
+  countrySelected = (country: AutocompleteData) => {
+    console.log(country);
+  }
+
+  stateSelected = (state: AutocompleteData) => {
+    console.log(state);
+  }
 }

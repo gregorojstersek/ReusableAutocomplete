@@ -1,0 +1,57 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.heading {
+  margin-bottom: 35px;
+
+  @media (max-width: 768px) {
+    margin-bottom: 15px;
+  }
+}
+
+h1 {
+  margin: 50px 0 15px 0;
+  font-weight: 300;
+  font-size: 48px;
+  color: $text-color;
+
+  @media (max-width: 768px) {
+    margin: 30px 0 15px 0;
+  }
+}
+
+h2 {
+  margin: 50px 0 15px 0;
+  font-weight: 300;
+  font-size: 24px;
+  color: $text-color;
+
+  @media (max-width: 768px) {
+    margin: 30px 0 15px 0;
+  }
+}
+
+.red {
+  * {
+    color: red;
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.text-center {
+  text-align: center
+}
+
+.margin-50 {
+  margin: 50px;
+}
