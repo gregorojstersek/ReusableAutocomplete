@@ -1,4 +1,4 @@
-# Find recipes
+# Reusable Autocomplete
 
 A [web application](https://frozen-shore-48407.herokuapp.com/) that displays a reusable autocomplete for finding recipes that start with "A", countries that start with "A" and states or territories of the United States.
 
