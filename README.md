@@ -11,7 +11,7 @@ A [web application](https://frozen-shore-48407.herokuapp.com/) that displays a r
 Make sure you clone the repo with the submodule
 
 ```sh
-git clone --recurse-submodules https://github.com/gregorojstersek/ReusableAutocomplete.git
+git clone --recurse-submodules https://github.com/gregorojstersek/reusable-autocomplete.git
 ```
 
 Make sure you have nodemon installed as a global package.
@@ -50,4 +50,4 @@ Built with Angular 6, using Angular CLI.
 
 ## Server side
 
-You can check the [repo](https://github.com/gregorojstersek/FilteringAutocompleteData) for more info.
+You can check the [repo](https://github.com/gregorojstersek/filtering-autocomplete-data) for more info.
